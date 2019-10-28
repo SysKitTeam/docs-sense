@@ -1,4 +1,5 @@
 # Table of contents
 
-* [docs-sense](README.md)
+* [SysKit Sense](README.md)
+* [Requirements](requirements.md)
 
