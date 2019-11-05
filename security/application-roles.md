@@ -20,3 +20,5 @@ Users have to use the Azure Portal to assign the Application Roles. The steps to
 5. Navigate to **Users and Groups** (located in the left navigation menu)
 6. Click on **Add User** button and follow the wizard to assign roles to users.
 >**Note** User assigning roles have to be **Configuration Owner** of the SysKit Sense Active Directory Application.
+
+>**NOTE** If you add additional Application Roles to user, user have to log out and once more log in into application for the new Roles to be applied.
