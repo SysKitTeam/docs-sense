@@ -5,7 +5,7 @@ description: >-
 
 # Unauthorized Actions 
 
-When the user tries to perform the actions that require **Administrator** application role, SysKit Sense will show dialog warning user that it does not have appropriate permissions. Learn more about Application Roles in SysKit Sense [here](./application-roles.md).
+When the user tries to perform the actions that require **Administrator** application role, SysKit Sense will show a dialog warning user that they do not have appropriate permissions. Learn more about Application Roles in SysKit Sense [here](./application-roles.md).
 
 ## Steps to fix the Unauthorized Actions dialog
 Users have to use the Azure Portal to assign the Application Roles. The steps to assign the Application Roles are:
