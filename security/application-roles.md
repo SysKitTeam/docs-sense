@@ -5,7 +5,6 @@ description: >-
 # Application roles in SysKit Sense
 
 SysKit Sense have integrated Role-Based access control (RBAC). It leverages the Application Roles feature of Azure Active Directory Applications. SysKit Sense ships with the following Application Roles:
-- **Viewer** - Reserved for future usage
 - **Administrator** - Users with this Application Role assigned can activate license, add sites to monitor and configure settings
 - **Agent Operator** - Users with this Application Role assigned can register agents with SysKit Sense
 
