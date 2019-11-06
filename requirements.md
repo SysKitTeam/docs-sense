@@ -26,7 +26,7 @@ Required resource providers:
 
 By default, the resources required by SysKit Sense will be deployed to a resource group named **syskit-sense**. 
 If the resource group does not exist, it will be created during the deployment process. 
-A different resource group can be chosen by modifying the deployment parameters. We recommend an empty resource group 
+A different resource group can be chosen by modifying the deployment parameters. We recommend an empty resource group for SysKit Sense deployments only.
 The user account performing the deployment must be an owner of the resource group for the deployment to succeed.
 More info about RBAC in Azure can be found [here](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal).
 
