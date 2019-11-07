@@ -30,4 +30,4 @@ As stated in the article:
 
 This means that for optimal performance you must shorten the network path to Office 365 entry points, bypass any firewalls and provide local direct egress to Office 365.
 
->https://docs.microsoft.com/en-us/office365/enterprise/office-365-network-connectivity-principles
+>[https://docs.microsoft.com/en-us/office365/enterprise/office-365-network-connectivity-principles](https://docs.microsoft.com/en-us/office365/enterprise/office-365-network-connectivity-principles)
