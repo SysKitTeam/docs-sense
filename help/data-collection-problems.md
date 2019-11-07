@@ -11,7 +11,7 @@ This category of incidents is related to the operation of SysKit Sense.
 ## Credentials Expired
 
 The agent installed at a location needs credentials of a user to access SharePoint as that user.  
-If the agent is operating normally this incident should never happen, but if i.e. the user's password was changed or the agent was offline for a longer period of time then the _Credentials Expired_ incident will signal that the credentials need to be refreshed.  
+If the agent is operating normally this incident should never happen, but if i.e. the user's password was changed, or the agent was offline for a longer period of time then the _Credentials Expired_ incident will signal that the credentials need to be refreshed.  
 To refresh the credentials, you must go to the server where the agent is installed and start SysKit Sense from the Start Menu.
 
 ## Location Unavailable
@@ -19,11 +19,12 @@ To refresh the credentials, you must go to the server where the agent is install
 This incident will appear when the agent installed at a location is no longer registered as online.  
 The agent has not contacted SysKit Sense for more than the defined amount of time.  
 Note that this is different from the _Data Collection not working_ incident since in this case we know for sure that the agent is offline or having connectivity issues. 
+Please check that the server where the SysKit Sense agent is located is online and has connectivity to the internet. There should be additional information in the Windows Event Log if the problems are related to the agent itself.
 
 ## Data Collection not working
 
 This incident can appear when the agent installed at a location stops sending data to SysKit Sense.  
-It indicates that the agent may not be working correctly.  
+It indicates that the agent may not be working correctly.  Additional information may be found in the Windows Event Log on the server where the SysKit Sense agent is installed.
 
 This incident will currently also appear when the agent comes online after a period of inactivity. The period of inactivity is signaled by the _Agent Unavailable_ incident but due to the current implementation the _Data Collection not working_ may appear for a brief period of time when the agent comes back online and the _Agent Unavailable_ incident ends.  
 The reason for this is that the incident is active the whole time during the _Agent Unavailable_ incident but is hidden since _Agent Unavailable_ has higher priority. The same goes for the _Credentials Expired_ incident.   
