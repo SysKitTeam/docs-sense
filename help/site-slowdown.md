@@ -5,7 +5,7 @@ description: >-
 
 # Site Slowdown
 
-Site slowdown is an incident that is raised when a specific site is loading poorly on any of the configured locations.  
+**Site slowdown** is an incident that is raised when a specific site is loading poorly on any of the configured locations.  
 The load time of the site is measured without any cache in the chrome browser from the server where the SysKit Sense agent is installed.
 
 There are various reasons why a SharePoint Site can be slow, and the resolution of the problem is outside the scope of SysKit Sense.  

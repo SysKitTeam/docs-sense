@@ -4,7 +4,7 @@ description: >-
   in setting up network for accessing Office 365.
 ---
 
-Network issues is an incident that is raised for a location when SysKit Sense determines that the network is behaving poorly loading sites from that location.
+**Network issues** is an incident that is raised for a location when SysKit Sense determines that the network is behaving poorly loading sites from that location.
 It does so based on the **Time Spent In Network** metric collected by the installed agent. 
 
 SharePoint Online includes its own headers in the HTTP response, some of which provide great insight about the page processing and the network travel of our page request.  
