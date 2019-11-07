@@ -6,7 +6,7 @@ description: >-
 # Licensing and Activation
 
 SysKit Sense will not work without a valid license and any interaction with the website will be blocked by the license screen.  
-You must be a member of the SysKit Sense Admin role in Azure Active Directory to license the product. Learn more about the application roles [here](../security/application-roles.md).
+You must be a member of the SysKit Sense Admin role in Azure Active Directory to license the product. Learn more about the application roles [here](./security/application-roles.md).
 
 Once a new license key has been provided the license will be immediately applied, no further actions are required.
 The license is tied to the Azure Active Directory tenant where SysKit Sense is deployed.  
