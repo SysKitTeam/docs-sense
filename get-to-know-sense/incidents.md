@@ -21,6 +21,6 @@ The incidents in SysKit Sense are divided in three major group: site related, Of
 
 ### Agent related incidents
 1. **Network Issues** - SysKit Sense analyzes how much time is lost in the network during the accessing SharePoint Online. If too much time is spent SysKit Sense will raise an incident. Learn more about this incident [here.](../help/network-issues.md)
-2. **Expired Credentials** - SysKit Sense will raise incident when the credentials on SysKit Sense Agent expire. Learn more about this incident [here.](../help/data-collection-not-working.md)
-3. **Data Collection not Working** - SysKit Sense will monitor the health of the connected SysKit Sense Agents. If the agent stops sending data to SysKit Sense, an incident will be raised. Learn more about troubleshooting this issue [here.](../help/data-collection-not-working.md)
-4. **Location Unavailable** - If the SysKit Sense Agent stops communicating with SysKit Sense, an incident will be raise. Lear more about troubleshooting this issue [here](../help/data-collection-not-working.md)
+2. **Expired Credentials** - SysKit Sense will raise an incident when the credentials on SysKit Sense Agent expire. Learn more about this incident [here.](../help/data-collection-problems.md)
+3. **Data Collection not Working** - SysKit Sense will monitor the health of the connected SysKit Sense Agents. If the agent stops sending data to SysKit Sense, an incident will be raised. Learn more about troubleshooting this issue [here.](../help/data-collection-problems.md)
+4. **Location Unavailable** - If the SysKit Sense Agent stops communicating with SysKit Sense, an incident will be raised. Lear more about troubleshooting this issue [here](../help/data-collection-problems.md)
