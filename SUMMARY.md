@@ -3,20 +3,18 @@
 * [SysKit Sense](README.md)
 * [Requirements](requirements.md)
 * [Licensing and Activation](licensing-and-activation.md)
-* [Security](security.md)
+* [Security](security/README.md)
   * [Application Roles](security/application-roles.md)
   * [Unauthorized Actions](security/unauthorized-actions.md)
-* [Get to Know Sense](get-to-know-sense.md)
+* [Get to Know Sense](get-to-know-sense/README.md)
   * [Adding Sites](get-to-know-sense/adding-sites.md)
   * [Incidents](get-to-know-sense/incidents.md)
   * [Notifications](get-to-know-sense/notifications.md)
 * [How To](how-to.md)
-* [Help](help.md)
+* [Help](help/README.md)
   * [Data Collection Problems](help/data-collection-problems.md)
   * [Large Content on Site](help/large-content-on-site.md)
   * [Network Issues](help/network-issues.md)
   * [Office 365 Slowdown](help/office-365-slowdown.md)
   * [Site Slowdown](help/site-slowdown.md)
-  
-  
-  
+
