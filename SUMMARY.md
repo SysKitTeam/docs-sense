@@ -10,11 +10,11 @@
   * [Adding Sites](get-to-know-sense/adding-sites.md)
   * [Incidents](get-to-know-sense/incidents.md)
   * [Notifications](get-to-know-sense/notifications.md)
-* [How To](how-to.md)
 * [Help](help/README.md)
   * [Data Collection Problems](help/data-collection-problems.md)
   * [Large Content on Site](help/large-content-on-site.md)
   * [Network Issues](help/network-issues.md)
   * [Office 365 Slowdown](help/office-365-slowdown.md)
   * [Site Slowdown](help/site-slowdown.md)
+  * [Page Unavailable](help/page-unavailable.md)
 
