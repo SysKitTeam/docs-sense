@@ -6,7 +6,8 @@ In order to prepare for the SysKit Sense [deployment](https://github.com/SysKitT
 
 ## Have the required resource providers registered in the Azure subscription
 
-The deployment script will try to register the required resource providers automatically, but if the user deploying SysKit Sense is not a subscription Owner/Contributor this step will fail and manual registration is required. More information about registering the resource providers is available [here](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-supported-services).
+The deployment script will try to register the required resource providers automatically, but if the user deploying SysKit Sense is not a subscription Owner/Contributor this step will fail, and manual registration is required by a person that has the required permissions. More information about registering the resource providers is available [here](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types).  
+Once the resource providers are registered by a person with the correct permissions, the deployment script can be run again with the original user and it will proceed past the resource provider registration.
 
 Required resource providers:
 
